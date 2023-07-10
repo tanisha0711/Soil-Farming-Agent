@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soil Farming Agent</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Unicons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="nav_logo">Soil Farming Agent</a>
+
+        <ul class="nav_items">
+          <li class="nav_item">
+            <a href="/Soil_Farming_Agent/index.html" class="nav_link">Home</a>
+            <a href="/Soil_Farming_Agent/product.html" class="nav_link"
+              >Product</a
+            >
+            <a href="/Soil_Farming_Agent/service.html" class="nav_link"
+              >Services</a
+            >
+            <a href="/Soil_Farming_Agent/contact.html" class="nav_link"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <button class="button" id="form-open">Login</button>
+      </nav>
+
+      <div class="para">
+        <p>
+          Earth is made up of various elements that contribute to the whole
+          ecosystem. The main elements of nature on which our survival depends
+          are water, land, air, and soil. Water is used for drinking purposes,
+          land for habitats, air for oxygen, and soil for the consumption of
+          food through agriculture. Agriculture plays a very important role in
+          the Indian Economy as it is the backbone of our country. Nearly 70% of
+          the Indian population depends on agriculture for food and money. In
+          order to obtain sustainable food crops, it is very important to
+          maintain the good quality of the soil. Soil plays a crucial role in
+          providing nutrients to the plants, storing and filtering rainwater,
+          providing water to various crops, and preventing pollution.<br /><br />
+          What is Soil? <br />
+          Soil is the surface material composed of various organic matters,
+          minerals, and microorganisms that is found on the uppermost layer of
+          the earths crust. They provide structural support to the plants that
+          are used in the agricultural processes and are also the prime source
+          of various nutrients, minerals, and water. Soils differ in their
+          chemical and physical properties depending on the climate and regions
+          they are found in. Each soil has unique properties which are
+          favourable for various practices such as agriculture. The physical
+          characteristics of soil include texture, colour, structure, porosity,
+          etc. <br /><br />Types of Soils:<br />
+          There are different types of soil found in various parts of the
+          country. They are as follows: <br />
+          Black Cotton Soil, Laterite Soil, Mountainous or Forest Soil, Arid or
+          Desert Soil, Alluvial Soil, Peaty and Marshy Soil, Saline and Alkaline
+          Soil. <br /><br />What are Crops?<br />
+          Crops are plants that are cultivated and harvested by the farmers
+          during the agricultural process. The cultivation of crops depends
+          mainly on climate conditions and soil. <br /><br />
+          Types of Crops: <br />There are different types of crops grown
+          depending on the type of conditions and regions they are grown in.
+          They are as follows: <br />
+          Kharif Crops, Rabi Crops, Zaid Crops, Cash Crops, Food Crops.
+        </p>
+      </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home">
+      <div class="form_container">
+        <i class="uil uil-times form_close"></i>
+        <!-- Login From -->
+        <div class="form login_form">
+          <form action="#">
+            <h2>Login</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input
+                type="password"
+                placeholder="Enter your password"
+                required
+              />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+
+            <div class="option_field">
+              <span class="checkbox">
+                <input type="checkbox" id="check" />
+                <label for="check">Remember me</label>
+              </span>
+              <a href="#" class="forgot_pw">Forgot password?</a>
+            </div>
+
+            <button class="button">Login Now</button>
+
+            <div class="login_signup">
+              Don't have an account? <a href="#" id="signup">Signup</a>
+            </div>
+          </form>
+        </div>
+
+        <!-- Signup From -->
+        <div class="form signup_form">
+          <form action="#">
+            <h2>Signup</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Create password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Confirm password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+
+            <button class="button">Signup Now</button>
+
+            <div class="login_signup">
+              Already have an account? <a href="#" id="login">Login</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <span> Copyright 2023 &copy; <a href=""></a>.All Rights Reserved. </span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
